@@ -72,5 +72,9 @@ table {
 }
 
 #topBanner {
-	margin-top: 400px;
+	margin-top: 350px;
+}
+
+#bottomBanner {
+	margin-top: 100px;
 }
