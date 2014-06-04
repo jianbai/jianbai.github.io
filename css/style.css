@@ -57,7 +57,7 @@ p {
 	 -moz-column-count: 2;
 	 -ms-column-count: 2;
 	 column-count: 2;
-	 font-family: "DINNextLTW23-UltraLight";
+	 font-family: 	;
 }
 
 article {
@@ -70,39 +70,3 @@ h3 {
 	 font-family: "DIN Next LT W23 Light";
 	 line-height: 150%;
 }
-
-footer.site-footer:before {
-	 content: "";
-	 display: table;
-}
-
-footer.site-footer:after {
-	 content: "";
-	 display: table;
-	 clear: both;
-}
-
-footer.site-footer {
-	 background-color: #333;
-	 color: #fff;
-	 text-align: center;
-	 padding: 5em 2em;
-	 width: auto;
-	 margin: 0 auto;
-}
-
-ul.footer-nav {
-	 list-style: none;
-	 width: 592.625px;
-}
-
-li.footer-li {
-	 margin: 0 0.5em 0 0.5em;
-	 font-size: 16px;
-	 display: inline-block;
-}
-
-a.footer-a {
-	 color: #ffffff;
-}
-
