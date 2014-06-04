@@ -57,6 +57,10 @@ table {
 	font-size: 4em;
 }
 
+#downIcon:hover {
+	color: #AFB9CA;
+}
+
 #headline {
 	margin-top: 50px;
 }
