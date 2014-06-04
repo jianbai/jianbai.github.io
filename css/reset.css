@@ -77,6 +77,11 @@ table {
 	color: black;
 }
 
+#background {
+	position: absolute;
+	top: 10px;
+}
+
 #headline {
 	margin-top: 50px;
 }
