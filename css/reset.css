@@ -57,6 +57,10 @@ table {
 	font-size: 4em;
 }
 
+#headline {
+	margin-top: 400px;
+}
+
 #content {
 	margin-top: 10px;
 }
