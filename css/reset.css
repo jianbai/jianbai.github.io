@@ -86,10 +86,10 @@ table {
 }
 
 #content a {
-	background-color: #CBCBCB;
+	background-color: #DBDBDB;
 	color: #7B8989;
 	text-decoration: none;
-	border-radius: 10%;
+	border-radius: 2px;
 }
 
 .gray {
