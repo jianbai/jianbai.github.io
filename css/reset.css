@@ -55,6 +55,7 @@ table {
 
 #downIcon {
 	font-size: 4em;
+	cursor: pointer;
 }
 
 #downIcon:hover {
