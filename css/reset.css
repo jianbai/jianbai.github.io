@@ -85,6 +85,11 @@ table {
 	margin-top: 10px;
 }
 
+#content a {
+	background-color: #EBEBEB;
+	color: #7B8989;
+}
+
 .gray {
 	width: 100%;
 	height: 250px;
