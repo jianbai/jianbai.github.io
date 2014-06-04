@@ -77,4 +77,18 @@ table {
 
 #bottomBanner {
 	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottomBanner a {
+	padding: 0 1rem;
+}
+
+#bottomBanner i {
+	padding: 0.25em;
+	border: 3px solid white;
+	border-radius: 50%;
+	color: #AFB9CA;
+	background: white;
 }
