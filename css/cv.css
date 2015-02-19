@@ -49,7 +49,7 @@ section {
 
 @media (min-width: 50rem) {
 	.container {
-		width: 70vw;
+		width: 80vw;
 	}
 
 	.divider {
@@ -59,7 +59,7 @@ section {
 
 @media (min-width: 70rem) {
 	.container {
-		width: 50vw;
+		width: 60vw;
 	}
 
 	.divider {
