@@ -1,7 +1,7 @@
 /** Fonts
 --------------------------------------------- **/
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,300italic,400);
 
 /** Main styles
 --------------------------------------------- **/
@@ -17,86 +17,136 @@ body, html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: #333333;
+  padding: 10px 0;
 }
 
 a {
 	cursor: pointer;
 	text-decoration: none;
+	color: #333333;
 }
 
-.section {
+a:hover {
+	text-decoration: underline;
+}
+
+section {
 	width: 100vw;
-	display: block;
+	margin-top: 10px;
+	display: inline-block;
 }
 
 .container {
-	width: 80vw;
+	width: 90vw;
 	margin: auto;
 }
 
+.divider {
+	font-size: 1.2rem;
+	border-bottom: 1px solid #333333;
+	margin-bottom: 10px;
+}
+
 @media (min-width: 50rem) {
+	.container {
+		width: 70vw;
+	}
+
+	.divider {
+		font-size: 1.4rem;
+	}
+}
+
+@media (min-width: 70rem) {
 	.container {
 		width: 50vw;
 	}
-}
 
-@media (min-width: 70rem) {
-	.container {
-		width: 40vw;
+	.divider {
+		font-size: 1.4rem;
 	}
 }
 
-/** Content
---------------------------------------------- **/
-
-.section.content a {
-	color: #333333;
-	border-radius: 2px;
-	background-color: #E3E3E3;
+.item {
+	width: 100%;
+	display: inline-block;
+	position: relative;
 }
 
-.hi {
-	margin-top: 20px;
-	font-size: 1.2rem;
+.item .name {
+	float: left;
 }
 
-@media (min-width: 50rem) {
-	.hi {
-		font-size: 1.6rem;
-	}
+.item .details {
+	font-size: 0.8rem;
 }
 
-@media (min-width: 70rem) {
-	.hi {
-		font-size: 2rem;
-	}
+.item .italic {
+	font-style: italic;
 }
 
-.projects {
-	margin-top: 20px;
-}
-
-.project {
-	margin-top: 20px;
-}
-
-.name {
+.item .bold {
 	font-weight: 400;
 }
 
-.name a {
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-}	
-
-.name a:hover {
-	color: #E9E9E9;
-	background-color: #739FDC;
-}
-
-.languages {
+.item .year {
+	position: absolute;
+	top: 0;
+	right: 0;
 	font-size: 0.8rem;
-	font-style: italic;
+	vertical-align: middle;
 }
+
+@media (min-width: 50rem) {
+	.item .year {
+		font-size: 0.8rem;
+	}
+}
+
+@media (min-width: 70rem) {
+	.item .year {
+		font-size: 1rem;
+	}
+}
+
+/** Header
+--------------------------------------------- **/
+
+.me {
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	float: left;
+}
+
+.contact {
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	float: right;
+}
+
+@media (min-width: 50rem) {
+	.me {
+		font-size: 1.8rem;
+		line-height: 1.8rem;
+	}
+
+	.contact {
+		font-size: 0.9rem;
+		line-height: 0.9rem;
+	}
+}
+
+@media (min-width: 70rem) {
+	.me {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.contact {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+}
+
+/** Education
+--------------------------------------------- **/
